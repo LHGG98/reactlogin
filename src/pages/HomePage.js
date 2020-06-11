@@ -1,5 +1,6 @@
 import React from "react";
-import LoginForm from "../components/LoginForm"
+import LoginForm from "../components/LoginForm";
+import RegistrationForm from "../components/RegistrationForm";
 
 export default function HomePage() {
 	return (
@@ -8,9 +9,11 @@ export default function HomePage() {
 				<div className="card-body">
 					<div className="row">
 						<div className="col-md-6 col-12">
-                            <LoginForm/>
-                        </div>
-						<div className="col-md-6 col-12"></div>
+							<LoginForm />
+						</div>
+						<div className="col-md-6 col-12">
+							<RegistrationForm />
+						</div>
 					</div>
 				</div>
 			</div>
